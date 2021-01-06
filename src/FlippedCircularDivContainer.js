@@ -6,6 +6,7 @@ const FlipDivs = (n,w,h, scale) => {
     for (var j = 0; j < n; j++) {
         divs.push(<FlippedCircularDiv key = {`fdc_${j}`} n = {n} w = {w} h = {h} n = {n} scale = {scale} i = {j}/>)
     }
+    return divs
 }
 
 const FlippedCircularDivContainer = ({n}) => {

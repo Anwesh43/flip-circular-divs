@@ -5,7 +5,7 @@ import FlippedCircularDiv from './FlippedCircularDiv';
 function App() {
   return (
     <div className="App">
-      <FlippedCircularDiv n = {10}></FlippedCircularDiv>
+      <FlippedCircularDivContainer n = {10}></FlippedCircularDivContainer>
     </div>
   );
 }
